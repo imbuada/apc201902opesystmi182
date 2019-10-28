@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(){
+        int userInput;
+        printf("What element do you control? \n");
+
+        printf("Enter a number from 1 -4 : ");
+        scanf("%d", &userInput);
+
+        if (userInput == 1){
+                printf("Your element is FIRE\n ");
+}
+        else if (userInput == 2){
+                printf("Your element is WATER\n");
+}
+        else if (userInput == 3){
+                printf("Your element is EARTH\n");
+}
+        else if (userInput == 4){
+                printf("Your element is AIR\n");
+}
+        else {
+                printf("ERROR\n");
+}
